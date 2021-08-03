@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>TecnotoX | Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Estilos Css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Ir Arriba -->
+  <div class="go-top">
+    <span class="fas fa-angle-up"></span>
+  </div>
+
+  
+    <!-- Menu de Navegacion -->
+    <header id="header">
+   
+      <nav class="menu">
+     <div class="logo-box">
+       <h1><a href="#"></a></h1>
+       <span class="btn-menu"><i class="fas fa-bars"></i></span>
+     </div>
+     
+     <div class="list-container">
+        <ul class="lists">
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#nosotros">Equipo</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+     </div>
+    </nav>
+           
+    <!-- Imagen Header -->
+    <div class="img-header">
+     <div class="welcome">
+       <img src="img/logo.png" >
+       <hr>
+       <p>Agencia de Diseño y Desarrollo web</p>
+
+     </div>       
+    </div>
+    
+    <div class="skew-abajo"></div>
+
+    </header>
+
+ <main>
+
+    <!-- Acerca de nosotros -->
+    <section class="acerca-de">
+    <div class="info-container">
+      <h1>¿Quiénes somos?</h1>
+      <p>Grupo conformado por Estudiantes de la Universidad Tecnológica Nacional (UTN), con el objetivo de lanzarse al mundo virtual para lograr la consolidación en la creación y diseño de paginas web. Favoreciendo a Pequeños Emprendedores, PyMEs y Grandes Empresas, llevar adelante sus proyectos en Publicidad, Marketing y Ventas a traves de una herramienta indispensable en la actualidad, que las conecte con el mundo.</p>
+      <p></p>
+    </div>
+    </section>
+
+   <!-- Nuestros proyectos -->
+   <section class="our-projects">
+      <div class="skew-arriba"></div>
+   <div class="deg-background"></div>
+   
+   <div class="ejeZproject">
+      <div class="container-project">
+        <div class="project-title">
+          <h2 id="proyectos">Nuestros Proyectos</h2>
+          <hr>
+        </div>
+          <div class="project-img">
+            <img src="img/theme-1.png" alt="">
+            <img src="img/theme-2.png" alt="">
+            <img src="img/theme-3.png" alt="">
+            <img src="img/theme-4.jpg" alt="">
+            <img src="img/theme-5.png" alt="">
+            <img src="img/theme-6.jpg" alt="">
+            <img src="img/theme-7.jpg" alt="">
+            <img src="img/theme-8.png" alt="">
+            <img src="img/theme-9.jpg" alt="">
+            <img src="img/theme-10.jpg" alt="">
+         </div>
+   <div class="skew-abajo"></div>
+   </section>
+
+   <!-- Contactanos -->
+   <section class="testimonios">
+    <div class="testimonios-title">
+     <h2 id="nosotros">Equipo Web</h2>
+     <hr>
+    </div>
+
+     <div class="box-testimonio">
+    
+        <div class="card-testimonio">
+            <div class="card-img"><img src="img/francocosci.jpeg" alt=""></div>
+            <div class="testimonio-text">
+              <h4>Franco Cosci - Fundandor</h4>
+              <p>Estudiante de Ingenieria en Sistemas - UTN Cordoba </p>
+              <div class="redes-container">
+                <ul>
+                    <li><a href="https://www.facebook.com/francoCosci" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/francocosci/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/franco_cosci" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-testimonio">
+              <div class="card-img"><img src="img/nicolasfolli.jpeg" alt=""></div>
+              <div class="testimonio-text">
+              <h4>Nicolas Folli</h4>
+              <p>Estudiante de Ingenieria en Sistemas - UTN Cordoba </p>
+              <div class="redes-container">
+                <ul>
+                    <li><a href="https://www.facebook.com/Nico.folli" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/nico.folli/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/nicofolli" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+              </div>
+              </div>
+            </div>
+
+     </div>
+   </section>
+
+ </main> 
+
+ <!-- Footer -->
+ <footer class="footer">
+   <div class="skew-arriba"></div>
+  <div class="deg-footer"></div>
+ 
+  <div class="ejeZfooter">
+  <div class="footer-content">
+   <div class="footer-title">
+     <h2 id="contacto">Formulario de Contacto</h2>
+     <hr>  
+   </div>
+
+   <div class="formulario-content">
+     <form id="formulario" action="correo.php" method="POST">
+        <label for="user">Nombre:</label>
+        <input type="text" id="user" name="user" placeholder="Ingresa tu Nombre" required>
+   
+        <label for="email">Correo Electronico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu Correo Electronico" required>
+   
+        <label for="menssage">Escribes tu mensaje</label>
+        <textarea name="menssage" id="message" required></textarea>
+   
+        <div class="send"><button>Enviar</button></div>
+   
+        <div class="mensaje-form">
+          <p>Escribenos un mensaje, con gusto tendras una respuesta de parte de nuestro equipo.</p>
+        </div>
+     </form>
+   </div>
+
+   <div class="footer-text">
+     <p>&copy; TecnotoX - 2020 | Todos los derechos reservados | Diseñador: Franco Cosci.</p>
+   </div>
+  
+  </div>
+</div>
+ </footer>
+
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/35db202371.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
